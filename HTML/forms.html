@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>Regitration form</h1>
+    <form action="/action.php">
+ <div>  
+        <label for="username">Enter your username :</label>
+        <input type="text" name="username" placeholder=" username"autofocus >  
+</div>
+<br>
+<div>
+    <label for="password">Enter your password :</label>
+    <input type="password" placeholder="password">
+</div>
+<br>
+  <div>
+        <label for="contact no">Contact no :</label>
+        <input type="number" name="contact no" placeholder="contact no">
+  </div>
+  <br>
+  <div>
+    <label for="address">Enter your address : </label>
+    <input type="text" name="address" placeholder="address">
+  </div>
+  <br>
+    <div>
+    <h4> Choose your gender</h4>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">others</label>
+    </div>  
+    <br>  
+    <div>
+        <label for=" purpose">Enter your purpose</label>
+        <textarea id="purpose" name="purpose" rows="3" column="5"></textarea>
+    </div>
+    <div>
+        <h4> Select your city</h4>
+        <select name="select your city">
+            <option value ="delhi"> delhi</option>
+            <option value="agra">Agra</option>
+            <option value="ghaziabad">Ghaziabad</option>
+            <option value="delhi ncr">Delhi ncr</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+h2 {
+    color :aqua;
+}
+button {
+    color: rgb(60, 40, 208);
+     background-color:rgb(217, 168, 237);
+}
+body {
+    background-color :white(14, 1, 14);
+}
+ h2 {
+    font-style: italic;
+    text-decoration: line-through;
+    font-weight: 100;
+ }
+
+ #box{
+   background-color: aqua; 
+   color:black;
+ }
+
+ .heading{
+    color:brown;
+ }
+
+p {
+    text-align: center;/* same meaning with start=left ,end=right*/
+    font-family:serif;
+    text-decoration: blue wavy underline;
+}
+body {
+    background-color: cadetblue;
+
+}
+
+h2 {
+    font-size: 40px;
+}
