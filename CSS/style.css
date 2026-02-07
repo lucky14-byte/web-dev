@@ -2,12 +2,10 @@ h2 {
     color :aqua;
 }
 button {
-    color: rgb(60, 40, 208);
-     background-color:rgb(217, 168, 237);
+    color: rgb(208, 40, 180);
+     background-color:rgb(61, 125, 199);
 }
-body {
-    background-color :white(14, 1, 14);
-}
+
  h2 {
     font-style: italic;
     text-decoration: line-through;
@@ -22,7 +20,7 @@ body {
  .heading{
     color:brown;
  }
-
+ /*we can also use h1,h2,h3 instead of class name to select all the heading tags and apply the same style to them*/
 p {
     text-align: center;/* same meaning with start=left ,end=right*/
     font-family:serif;
@@ -36,3 +34,4 @@ body {
 h2 {
     font-size: 40px;
 }
+
