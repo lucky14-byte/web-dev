@@ -21,10 +21,22 @@ button {
     color:brown;
  }
  /*we can also use h1,h2,h3 instead of class name to select all the heading tags and apply the same style to them*/
+ h1 {
+    text-align: center;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
 p {
     text-align: center;/* same meaning with start=left ,end=right*/
     font-family:serif;
     text-decoration: blue wavy underline;
+}
+#one {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:crimson
 }
 body {
     background-color: cadetblue;
