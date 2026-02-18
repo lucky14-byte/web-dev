@@ -38,6 +38,11 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:crimson
 }
+#para {
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
 body {
     background-color: cadetblue;
 
