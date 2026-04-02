@@ -29,9 +29,17 @@ input {
 .contentbox {
     height : 100px;
     width : 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content {
+    height:500px;
 }
 footer {
     height: 50px;
-    background-color: white;
-    color:black
+    background-color:black;
+    color: white;
+    text-align: center;
+    
+    
 }
